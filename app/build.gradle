@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'himanshu'
             keyPassword 'capstone'
-            storeFile file('/mnt/data/development/android/my_projects/MyFest/capstone.jks')
+            storeFile file("$rootDir/capstone.jks")
             storePassword 'capstone'
         }
     }
