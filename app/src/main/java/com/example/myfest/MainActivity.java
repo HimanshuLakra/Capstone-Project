@@ -38,8 +38,7 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity
-		implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity {
 
 	private ArrayList<Fest> fests;
 
@@ -77,7 +76,7 @@ public class MainActivity extends AppCompatActivity
 		toggle.syncState();
 
 		final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-		navigationView.setNavigationItemSelectedListener(this);
+		//navigationView.setNavigationItemSelectedListener(this);
 		userpic = (ImageView) navigationView.getHeaderView(0).findViewById(R.id.imageView);
 		username = (TextView) navigationView.getHeaderView(0).findViewById(R.id.username);
 		useremail = (TextView) navigationView.getHeaderView(0).findViewById(R.id.useremail);
@@ -187,31 +186,6 @@ public class MainActivity extends AppCompatActivity
 		}
 
 		return super.onOptionsItemSelected(item);
-	}
-
-	@SuppressWarnings("StatementWithEmptyBody")
-	@Override
-	public boolean onNavigationItemSelected(MenuItem item) {
-		// Handle navigation view item clicks here.
-		int id = item.getItemId();
-
-		if (id == R.id.nav_camera) {
-			// Handle the camera action
-		} else if (id == R.id.nav_gallery) {
-
-		} else if (id == R.id.nav_slideshow) {
-
-		} else if (id == R.id.nav_manage) {
-
-		} else if (id == R.id.nav_share) {
-
-		} else if (id == R.id.nav_send) {
-
-		}
-
-		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-		drawer.closeDrawer(GravityCompat.START);
-		return true;
 	}
 
 	private class PagerFestAdapter extends FragmentPagerAdapter {
