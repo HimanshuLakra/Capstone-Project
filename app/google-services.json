@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "754901529448",
+    "firebase_url": "https://myfest-d3c09.firebaseio.com",
+    "project_id": "myfest-d3c09",
+    "storage_bucket": "myfest-d3c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754901529448:android:539a1759c523a4d6",
+        "android_client_info": {
+          "package_name": "com.example.myfest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754901529448-ir5pd6e6lnn6dgfl66g1mibdbpme0bj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq8EbUGYP6wAxWMWWEZl0DNE-486EkNsk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
